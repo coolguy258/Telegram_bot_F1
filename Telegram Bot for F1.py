@@ -43,7 +43,7 @@ def get_timetable():
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36'
     }
 
-    url = f'{"https://www.f1news.ru/Championship/2022/"}'
+    url = f'{"https://www.f1news.ru/Championship/2024/"}'
     
     # обращаемся к сайту
     r = requests.get(url=url, headers=headers)
